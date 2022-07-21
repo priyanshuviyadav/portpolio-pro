@@ -1,4 +1,4 @@
-import Nav from "../component/Nav";
+import Nav from "../components/Nav";
 import Image from "next/image";
 import Footer from "./Footer";
 export default function Home() {

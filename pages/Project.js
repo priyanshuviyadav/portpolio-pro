@@ -1,7 +1,7 @@
 import React from "react";
-import Nav from "../component/Nav";
+import Nav from "../components/Nav";
 import Footer from "./Footer";
-import ProjectSummary from "../component/ProjectSummary";
+import ProjectSummary from "../components/ProjectSummary";
 
 function Project() {
   const projectArr = [

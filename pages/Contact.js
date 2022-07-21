@@ -1,11 +1,11 @@
 import React from "react";
-import Nav from "../component/Nav";
+import Nav from "../components/Nav";
 import Footer from "./Footer";
 
 const Contact = () => {
   return (
     <>
-      <div className='contact-container bg-slate-400 max-w-4xl mx-auto py-2 px-10 h-100'>
+      <div className='contact-container bg-slate-300 max-w-4xl mx-auto py-2 px-10 h-100'>
         <Nav />
         <h1 className='text-3xl font-sans from-neutral-700 font-bold py-5'>
           Get in <span className='text-3xl font-bold '>Touch</span>
