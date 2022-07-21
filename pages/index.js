@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <div className='container bg-slate-500 max-w-4xl mx-auto text-black-800 py-2 px-10 h-90 overflow-hidden'>
         <Nav />
-        <div className='home-container mx-auto border-4 my-10 flex justify-between gap-5 py-2 px-5 font-bold rounded-lg '>
+        <div className='home-container mx-auto border-2 my-10 flex justify-between gap-5 py-2 px-5 font-bold rounded-lg '>
           <div className='flex flex-col justify-center items-center object-cover rounded-full w-1/2'>
             <Image src='/user.png' alt='Vercel Logo' width={200} height={200} />
 

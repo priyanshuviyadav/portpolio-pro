@@ -20,9 +20,9 @@ function ProjectSummary({ projectdetails }) {
             <p className=' text-xl  my-5 '>{projectdetails.readmore}</p>
           </div>
         </div>
-        <div className='flex   justify-end gap-5'>
+        <div className='flex justify-end gap-5'>
           <a
-            className='  bg-red-800 px-5 py-5    rounded-lg text-white'
+            className='bg-red-800 px-5 py-5    rounded-lg text-white'
             href={projectdetails.github}
           >
             Github
@@ -38,7 +38,7 @@ function ProjectSummary({ projectdetails }) {
             className='  bg-green-800 text-white py-5 px-5 rounded-lg '
             href={projectdetails.readmore}
           >
-            Read more....
+            Read More
           </a>
         </div>
       </div>
